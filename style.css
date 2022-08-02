@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Outfit:wght@200;400;800&display=swap');
+/*
+font-family: 'Karla', sans-serif;
+font-family: 'Outfit', sans-serif;
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+     min-height: 100vh;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    
+    
+}
+.price-grid{
+    max-width: 700px;
+    background-color: white;
+     box-shadow:2px grey;
+    
+}
+.header{
+    padding: 30px;
+    font-size: 13px;
+    background-color: white;  
+}
+.header h2{
+    margin-bottom: 20px;
+    color:hsl(179, 62%, 43%);
+}
+.a{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color:  hsl(71, 73%, 54%);
+    font-size: 17px;
+}
+.b{
+    color: gray;
+    margin-bottom: 5px;    
+}
+.g{
+    color: gray;
+    
+}
+.content{
+    display: flex;
+    
+    
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+.left{
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding:30px;
+    font-size: 13px;
+
+}
+.left h3{
+    margin-bottom: 20px;
+}
+.c{
+    margin-bottom: 10px;
+    display: flex;
+        
+}
+.c p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.left button{
+    width: 190px;
+    height: 37px;
+    margin-top: 20px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: 1px hsl(71, 73%, 54%);
+    border-radius: 8% 8%;
+}
+.right{
+    color: white;
+    background-color: hsl(179, 76%, 45%);
+    padding: 30px;
+    padding-right: 47px;
+
+    font-size: 13px;
+}
+.right h3{
+    margin-bottom: 20px;
+}
